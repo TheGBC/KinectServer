@@ -12,7 +12,7 @@ public class IcpHandler {
    * @param targetWidth The width of the target point cloud.
    * @param targetHeight The height of the target point cloud.
    * @param targetData the target ponti cloud data. Size should be
-   *     3 * w * h, {x,y,z{ values for the point cloud.
+   *     3 * w * h, {x,y,z} values for the point cloud.
    * @return Matrix transformation and results of icp.
    */
   public static Matrix iterativeClosestPoint(

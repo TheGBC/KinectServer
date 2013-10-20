@@ -1,0 +1,1 @@
+javac -d /var/lib/tomcat7/webapps/ICP/WEB-INF/classes -cp "/var/lib/tomcat7/webapps/ICP/WEB-INF/lib/gson-2.2.4.jar:/usr/share/tomcat7/lib/servlet-api.jar" src/edu/gbc/jni/HelloServlet.java ~/server/icp/jni/Matrix.java ~/server/icp/jni/IcpHandler.java
